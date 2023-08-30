@@ -1,0 +1,296 @@
+/* Page Layout */
+html{
+	font-size: 1.5vw;
+}
+body {
+	
+	margin-left:28%;
+	position: relative;
+	text-align: justify;
+	margin-right: 2%;	
+}
+
+header{
+	margin-left: -67%;
+	margin-top: 15%;
+	position: fixed;
+}
+
+h1 {	
+	margin-top: 0;
+    text-decoration: none;
+    text-transform: uppercase;	
+	text-align: center;
+}
+
+main {	
+	min-height: 20%;
+	margin-left: 30%;
+	position: relative;
+	
+}
+
+.fc3{
+	margin-bottom: 30%;
+	text-align: center;
+}
+
+.fc13{
+	text-decoration: none;
+	color:gold;
+	margin-bottom: 30%;
+	margin-left: 20%;
+}
+
+nav{
+	position: relative;
+	left: 2%;
+}
+ul {
+	list-style:none;
+}
+li {
+    text-align: center;
+}
+.rollei{
+	text-decoration: none;
+	color:gold;
+}
+/* nav {
+	display: block;
+}
+
+ul {
+	list-style:none;
+}
+
+li {
+	display:block;
+    text-align: center;
+	width:10em;
+	float:none;
+	margin-left:1em;
+	border:0.05em solid white;
+    margin-bottom: 5%;
+	font-size: 1.5vw;
+	
+	
+} */
+
+
+#img3 {
+	margin-top: 20%;
+	position: relative;
+	left: 20%;
+	width: 60%;
+	border-radius: 50%;
+	opacity: 0.5;
+	
+}
+
+#img6 {
+	position: relative;
+	left: 20%;
+	width: 60%;
+	size: 50%;
+	border-radius: 20%;
+	opacity: 0.7;
+	
+}
+
+
+#img7 {
+	position: relative;
+	left: 20%;
+	width: 60%;
+	size: 20%;
+	border-radius: 10%;
+	opacity: 0.7;
+	
+}
+
+
+#img8 {
+	position: relative;
+	left: 20%;
+	width: 60%;
+	size: 30%;
+	border-radius: 5%;
+	opacity: 0.7;
+	
+}
+
+#img9{
+	position: relative;
+	left: 20%;
+	width: 60%;
+	border-radius: 5%;
+	opacity: 0.7;
+}
+
+#img10{
+	position: relative;
+	float:left;
+	left: 0%;
+	width: 30%;
+	border-radius: 5%;
+	opacity: 0.7;
+	margin-top: 2%;
+	margin-right: 2%;
+    border-bottom: 0;
+}
+
+
+#img12 {
+	position: relative;
+	float: left;
+	left: 10%;
+	width: 32%;
+	border-radius: 5%;
+	opacity: 0.7;
+	
+}
+#img13{
+	position: relative;
+	left: 10%;
+	width: 50%;
+	border-radius: 5%;
+	opacity: 0.7;
+	margin-left: 1%;
+	
+}
+
+#img14{
+	position: relative;
+	left: 20%;
+	width: 60%;
+	border-radius: 5%;
+	opacity: 0.7;
+	margin-right: 20%;
+}
+
+#r1, #r2, #r3, #r4 {
+    float: left;
+    margin-right: 20px;
+	width: 15%;
+    border-radius: 50%;
+}
+
+.review {
+    text-indent: 3%;
+    text-align: justify;
+}
+
+footer p {
+    transform: rotate(5deg);
+    text-align: left;
+    color: blueviolet;
+}
+
+/* Typography */
+
+body {
+	font-size: 120%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+main h2 {
+	font-size: 120%;
+	font-weight: bold;
+	color: rgb(102, 9, 159);
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+nav a:link{
+	color: #FFF;
+	text-decoration: none;
+	opacity: 0.3;
+}
+nav a:visited{
+	color:lightgreen;
+	text-decoration: none;
+	opacity: 0.3;
+}
+nav a:hover{	
+	text-decoration: none;
+	opacity: 1.0;
+}
+nav a:active{
+	color: #aede00;
+	text-decoration: none;
+	opacity: 0.3;
+}
+
+p:hover{
+	background-color: black;
+	opacity: 1.0;
+}
+
+p::first-letter{
+	font-size: 130%;
+    font-weight: bold;
+}
+
+/* Colour */
+
+
+body.index{
+background-color:black;
+background:transparent url('../img/1.jpg')no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+body.productInfo{
+	background-color:black;
+	background:transparent url('../img/2.jpg')no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+body.corporateInfo{
+	background-color:black;
+	background:transparent url('../img/4.jpg')no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	}
+body.promotiondetails{
+	background-color:black;
+	background:transparent url('../img/5.jpg')no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* footer {
+	background: transparent url('../img/logo.png') bottom right no-repeat;
+    background-size: 30%;
+} */
+
+.h {
+    color: white;
+}
+
+nav {
+	margin-left: 20em;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+figcaption {
+    color: white;
+}
